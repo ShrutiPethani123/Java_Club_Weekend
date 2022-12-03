@@ -38,13 +38,13 @@ T   T   F
 
 !
 
-A   !A
+ A   !A
  T  F
  F  T
 
 
-binary --> 0 1
-decimal -> 0 to 9
+binary(2) --> 0 1
+decimal(10) -> 0 to 9
 
 1010 --> 
 
@@ -54,6 +54,10 @@ decimal -> 0 to 9
 
 0100 - 4
 1111 - 15
+0101 - 5
+1100 - 12
+110 111 - 55
+11111 - 31
 1011 - 11
 1 1100 - 0001 1100 - 28
 1111 - 15 
@@ -64,6 +68,8 @@ decimal -> 0 to 9
 
 8 -->  1000
 10 --> 1010
+12 - 1100
+18 - 10010
 15 ->  1111
 63 ->  11 1111
 55 ->  11 0111
@@ -94,18 +100,18 @@ public class Operators {
         // System.out.println(x);
 
 
-        // int t = 5; // 0101 -  0000 0101
-        // int s = 6; // 0110
+        int t = 5; // 0101 -  0000 0101
+        int s = 6; // 0110
         //            // 0100 - 4 ( &&)
         //            // 0111 - 7 (|| )
         //            // 0011 - 3 (^)
         // System.out.println(t&s);
         // System.out.println(t|s);
         // System.out.println(t^s);
-        // System.out.println(t<<1); // 0000 1010 - 10
-        // System.out.println(t<<2); // 0001 0100 - 20
-        // System.out.println(t>>1); // 0000 0010 - 2
-        // System.out.println(t>>3);  // 
+        System.out.println(t<<1); // 0000 1010 - 10
+        System.out.println(t<<2); // 0001 0100 - 20
+        System.out.println(t>>1); // 0000 0010 - 2
+        System.out.println(t>>3);  // 
 
         int x = 3;
         // System.out.println(x++);
@@ -122,18 +128,18 @@ public class Operators {
         
 
 
-        int t=89;
-        int y=78;
+        // int t=89;
+        // int y=78;
 
-        int min;
-        // if(t<y)
-        // {
-        //     min=t;
-        // }else{
-        //     min=y;
-        // }
-        min = (t<y) ? t :y;
-        System.out.println(min);
+        // int min;
+        // // if(t<y)
+        // // {
+        // //     min=t;
+        // // }else{
+        // //     min=y;
+        // // }
+        // min = (t<y) ? t :y;
+        // System.out.println(min);
 
 
 

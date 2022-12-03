@@ -10,11 +10,11 @@
     char
     String
 
-    1. implicit type conversion
+    1. implicit type conversion 
 
         byte-> short -> int -> long -> float -> double
 
-    2. Explicit type conversion
+    2. Explicit type conversion 
 
         double-> float-> long -> int -> short -> byte
 

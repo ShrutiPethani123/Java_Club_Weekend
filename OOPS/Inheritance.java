@@ -38,6 +38,7 @@ Total 5 types of inheritance
       C
 
     - Ambiguity problem
+    
 4. Hyrarchical 
 
      A
