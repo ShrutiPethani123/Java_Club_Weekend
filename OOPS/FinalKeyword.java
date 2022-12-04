@@ -17,22 +17,23 @@ class X{
     //     y=z;
         
     // }
+    int z;
 
     final void display()
     {
         System.out.println("Hello");
     }
     
-
+    
 
 }
 
 class Y extends X{
 
-   final void display()
-    {
-        System.out.println("Hello");
-    }
+//    final void display()
+//     {
+//         System.out.println("Hello");
+//     }
     
 
 }
