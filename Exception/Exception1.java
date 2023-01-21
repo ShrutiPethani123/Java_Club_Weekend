@@ -13,6 +13,7 @@
             4. IndexOutOfBound
                 1.ArrayIndexOutOfBound
                 2.StringOutOfBound
+
       2. IO Exception
             1. EOF Exceptoion
             2. FileNotFound Exception
