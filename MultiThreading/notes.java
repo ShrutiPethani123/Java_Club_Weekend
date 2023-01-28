@@ -18,7 +18,7 @@ How to achive MultiTsaking
 
 2. Multi Processing: when one system is connected to multiple processor in order to complete task.
 
-        VLC         Word        Browser
+        VLC         Word         Browser
         |           |               |
                     OS
                     |
@@ -125,5 +125,41 @@ Create ---> Runnable --> Running ---> Dead
                        -> valid
     }
 
+
+-> performing single task from single thread
+-> performing single task using multiple thread
+-> performing Multiple task using single thread -> invalid
+-> performing Multiple task using multiple thread
+
+
+public class Thread implements Runnable{
+
+    // consturctor
+
+    Thread(){}
+    Thread(Runnable r){}
+    Thread(String name){}
+    Thread(Runnable r , String name){}
+    Thread(Threadgrp tg , Runnable r){}
+    Thread(Threadgrp tg , String name){}
+    Thread(Threadgrp tg , Runnable r , String name){}
+
+
+    //Methods
+
+    basics-> run(), start(),currentThread(),isAlive()
+    Nameing Methods -> getName() , setName(String name)
+    Daemon Thread -> isDaemon(), setDeamon(Boolean b)
+    Priority Method -> getPriority() , setPriority(int n)
+    Preventing Thread -> sleep(),join(),yeild()
+    Intruppted Method -> intrupted(), isIntrupted()
+
+
+    public void run(){}
+    public synchorinzed void start(){}
+    public static native Thread currentThread(){}
+    public final native boolean isAlive(){}
+
+}
 
  */
