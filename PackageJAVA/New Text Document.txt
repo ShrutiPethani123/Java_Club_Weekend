@@ -1,0 +1,10 @@
+package student;
+
+
+class Parshwa{
+
+	void talking()
+	{
+		System.out.println("Taking");
+	}
+}

@@ -1,0 +1,29 @@
+-> Access Modifier
+
+private
+default
+protected
+public
+
+                same class      same package    different package with subclass    different package  
+
+private             yes            NO                    NO                              NO
+default             yes            yes                  NO                              No
+protected           yes             yes                 yes                             NO
+public              yes             yes                 yes                             yes
+
+
+-> package
+
+package is a collection of class
+
+2 types
+
+1. built in package
+                java
+
+            util    lang    awt     net      sql
+
+2. user define package
+
+
