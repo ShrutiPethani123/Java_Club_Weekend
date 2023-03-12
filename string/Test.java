@@ -16,6 +16,7 @@
  */
 
 import java.util.Scanner; 
+import java.lang.String;
 public class Test {
     
     public static void main(String[] args) {
@@ -82,8 +83,23 @@ public class Test {
         int b=6;
         System.out.println(a+b);
         System.out.println(a+b + " Addition is: "+ a + b);
+        System.out.println(s5.replace('a', 'z'));
+
+        String s7 = "India is Best Country India Country";
+        System.out.println(s7.replaceFirst("o", "a"));
+        System.out.println(s7.replace('t', 'a'));
+        System.out.println(s7.replace("India", "ABC"));
 
 
+
+        //1. Take one string from user check string is palindrom or not.
+        //2. Take two sting from user and check first string is substring of second string or not. 
+
+            // good
+            // goodmorning
+
+
+        
 
 
 
