@@ -24,10 +24,12 @@ public class Example2 {
 
         Test t = new Test();
         t.start();
+        System.out.println(t.isAlive());
         System.out.println(Thread.currentThread().getName());
 
         Test2 t2 = new Test2();
         t2.start();
 
+        System.out.println(t2.isAlive());
     }
 }
